@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(252, 251, 251);
+}
+
+.formulaire {
+  background-color: rgb(235, 228, 218);
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0px 1px 10px rgb(29, 28, 28);
+}
+.formulaire input:not([type="radio"]) {
+  display: block;
+  padding: 10px 10px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.p {
+  color: brown;
+  font-size: 20px;
+  font-weight: 38px;
+}
+
+.formulaire button {
+  display: block;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px solid;
+  background-color: blue;
+  color: #fff;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
